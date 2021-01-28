@@ -11381,11 +11381,13 @@ a {
 .about img {
   margin: 0 auto;
   padding-bottom: 40px;
+  width: 120px;
 }
 
 @media (min-width: 768px) {
   .about img {
     padding-bottom: 56px;
+    width: 250px;
   }
 }
 
