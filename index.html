@@ -11,16 +11,50 @@
 
 <body>
     <!-- Banner -->
-    <div class="banner">
-        <div class="bannerInner">
-            <h1 class="bannerTitle">
-                <span>Here’s</span>
-                <br>
-                Erin
-            </h1>
-            <p class=" lh-36 mb-48">UI/UX Designer
+    <div class="header">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <!-- 左上logo -->
+            <a class="navbar-brand " href="#">
+                <img src="./img/logo.svg" alt="">
+                <span class="ml-1">Erin</span>
+            </a>
+            <!-- 手機版選單按鈕 -->
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- 選單按鈕 -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 內容 -->
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="bannerInner">
+                <h1 class="bannerTitle">
+                    <span>Here’s</span>
+                    <br>
+                    Erin
+                </h1>
+                <p class=" lh-36">UI/UX Designer
+            </div>
         </div>
     </div>
+
     <!-- About -->
     <div id="about" class="container">
         <div class="about">
@@ -157,6 +191,14 @@
             </ul>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
